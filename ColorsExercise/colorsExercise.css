@@ -1,34 +1,66 @@
 /* Color Name */
 h1 {
-    color: red;
+    color: crimson;
+    /* Bonus 1 */
+    background-color: red;
+    /* OR */
+    /* background: red; */
 }
 
 /* Hexadecimal */
 h2 {
     color: #23ef01;
+    /* Bonus 1 */
+    background-color: orange;
 }
 
 /* Hexadecimal Shorthand */
 h3 {
-    color: #ff0;
+    color: #fc0;
+    /* Bonus 1 */
+    background-color: yellow;
 }
 
 /* Hexadecimal with Transparency */
 h4 {
     color: #00ff00ff;
+    /* Bonus 1 */
+    background-color: green;
 }
 
 /* Hexadecimal with Transparency Shorthand */
 h5 {
     color: #f007;
+    /* Bonus 1 */
+    background-color: blue;
 }
 
 /* RGB */
 h6 {
     color: rgb(24, 14, 114);
+    /* Bonus 1 */
+    background-color: indigo;
 }
 
 /* RGBA */
 p {
     color: rgba(115, 33, 6, 1);
+    /* Bonus 1 */
+    background-color: violet;
+}
+
+/* Bonus Three */
+#listItemOne {
+    color: hotpink;
+}
+
+/* Bonuis Four */
+
+#listItemThree {
+    background-color: peachpuff;
+}
+
+/* Bonus Five */
+li:nth-of-type(2n+1) {
+    border: 5px solid green;
 }
